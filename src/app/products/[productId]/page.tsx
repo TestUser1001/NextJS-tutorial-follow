@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { resolve } from "path/posix";
+/* import { resolve } from "path/posix"; */
 
 type Props = {
   params: Promise<{ productId: string }>;
